@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
+      integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="calculator">
+        <p class="calculator-result">0</p>
+        <div class="calculator-buttons">
+          <button class="btn btn-raised btn-danger" id="clear">C</button>
+          <button class="btn btn-raised btn-danger" id="clear-entry">CE</button
+          ><br />
+          <button class="btn btn-raised btn-secondary number">1</button>
+          <button class="btn btn-raised btn-secondary number">2</button>
+          <button class="btn btn-raised btn-secondary number">3</button>
+          <button class="btn btn-raised btn-info operator">*</button>
+          <button class="btn btn-raised btn-secondary number">4</button>
+          <button class="btn btn-raised btn-secondary number">5</button>
+          <button class="btn btn-raised btn-secondary number">6</button>
+          <button class="btn btn-raised btn-info operator">/</button>
+          <button class="btn btn-raised btn-secondary number">7</button>
+          <button class="btn btn-raised btn-secondary number">8</button>
+          <button class="btn btn-raised btn-secondary number">9</button>
+          <button class="btn btn-raised btn-info operator">-</button>
+          <button class="btn btn-raised btn-secondary" id="sign">,</button>
+          <button class="btn btn-raised btn-secondary number">0</button>
+          <button class="btn btn-raised btn-secondary" id="equal">=</button>
+          <button class="btn btn-raised btn-info operator">+</button>
+        </div>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
