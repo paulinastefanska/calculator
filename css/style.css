@@ -21,3 +21,13 @@
 .btn:disabled {
   opacity: 1;
 }
+
+@media (max-width: 575px) {
+  .calculator {
+    max-width: 280px;
+  }
+  .btn {
+    font-size: 18px;
+    width: 55px;
+  }
+}
